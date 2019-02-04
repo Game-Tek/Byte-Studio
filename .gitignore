@@ -1,0 +1,8 @@
+# Directories
+.vs/
+GS_Editor/x64/
+GS_Editor/GeneratedFiles/
+x64/
+
+# Files
+*.user
