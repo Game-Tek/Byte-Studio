@@ -15,12 +15,11 @@ public:
 	MainWindow(QWidget * Parent = Q_NULLPTR);
 
 private:
-	Ui::MainWindowClass UI;
-
 	QDockWidget * ProjectExplorer;
 	QDockWidget * Viewport;
 
-	QString WindowName;
+	QToolBar* mainToolbar = nullptr;
+	QMenu* fileMenu = nullptr;
 
 	void LoadProject();
 	void SaveProject();

@@ -1,0 +1,25 @@
+QWidget
+{
+	background: BG_COLOR;
+}
+
+QMenuBar
+{
+	background: transparent;
+	color: TEXT_COLOR;
+}
+
+QMenu
+{
+	background: BG_COLOR;
+	color: TEXT_COLOR;
+}
+
+QToolTip { color: TEXT_COLOR; background-color: BG_COLOR; border: 0px; }
+
+QToolBar::separator
+{
+	background-color: transparent;
+	width: 100;
+	height: 100;
+}
