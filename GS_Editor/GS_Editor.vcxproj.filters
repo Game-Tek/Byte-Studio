@@ -61,4 +61,9 @@
       <Filter>Resource Files</Filter>
     </QtRcc>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Vector3_Widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

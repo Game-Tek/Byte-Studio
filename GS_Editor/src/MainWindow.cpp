@@ -1,6 +1,9 @@
 #include "MainWindow.h"
 
 #include <QToolBar>
+#include <QLayout>
+
+#include "Vector3_Widget.h"
 
 MainWindow::MainWindow(QWidget * Parent) : QMainWindow(Parent)
 {
@@ -29,7 +32,10 @@ MainWindow::MainWindow(QWidget * Parent) : QMainWindow(Parent)
 	mainToolbar->addSeparator();
 	mainToolbar->addAction(QIcon("Resources/package.png"), "Package");
 	
-	
+	Vector3_Widget* nn = new Vector3_Widget(this);
+
+	setCentralWidget(nn);
+	nn->show();
 	
 	//addToolBar("File");
 	

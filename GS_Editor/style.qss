@@ -15,11 +15,36 @@ QMenu
 	color: TEXT_COLOR;
 }
 
-QToolTip { color: TEXT_COLOR; background-color: BG_COLOR; border: 0px; }
+QToolTip { color: TEXT_COLOR; background-color: BG_COLOR; border: none; }
 
 QToolBar::separator
 {
 	background-color: transparent;
 	width: 100;
 	height: 100;
+}
+
+QDoubleSpinBox
+{
+	color: TEXT_COLOR;
+	background: FILL_COLOR;
+	border: none;
+	padding: 5px 4px 4px 4px;
+}
+
+QDoubleSpinBox::up-button, QDoubleSpinBox::down-button
+{
+	color: TEXT_COLOR;
+	border: none;
+	padding: 5px 4px 4px 4px;
+}
+
+QDoubleSpinBox::up-button
+{
+	image: url(Resources/+.png);
+}
+
+QDoubleSpinBox::down-button
+{
+	image: url(Resources/-.png);
 }
